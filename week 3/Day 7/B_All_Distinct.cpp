@@ -7,7 +7,7 @@ int main()
     cin>>test;
     while(test--)
     {
-        int count[N]= {0};
+        int count[N+1]= {0};
         int n;
         cin>>n;
         for(int i=0; i<n; i++)
@@ -16,6 +16,7 @@ int main()
             cin>>k;
             count[k]++;
         }
+        //samiejr
         int c=0;
         int b=0;
         for(int i=0; i<=N; i++)
