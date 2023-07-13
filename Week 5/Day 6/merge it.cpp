@@ -28,6 +28,7 @@ void solve()
     }
     else if(t>0){
         long long mini = min(o,t);
+        count+=(t-mini)/3;
         cout<<count+mini<<endl;
     }
     else{
